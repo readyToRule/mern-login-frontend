@@ -35,7 +35,7 @@ function App() {
           </>
         )}
         <input name="email" placeholder="Email" value={form.email} onChange={handleChange} required /><br />
-        <input name="password" type="password" placeholder="Password" value={form.password} onChange={handleChange} required /><br />
+        <input name="password" type="password" placeholder="Password"  onChange={handleChange} required /><br />
         <button type="submit">{isRegister ? "Register" : "Login"}</button>
       </form>
       <button onClick={() => setIsRegister(!isRegister)} style={{ marginTop: 10 }}>
