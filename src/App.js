@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const API = "https://mern-login-backend-qxlw.onrender.com/api/users";
+const API = "https://mern-login-backend-gm9m.onrender.com";
 
 function App() {
   const [isRegister, setIsRegister] = useState(false);
