@@ -1,0 +1,230 @@
+/* src/styles/main.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  background: #f9fafb;
+  color: #222;
+}
+
+a {
+  color: #2576cc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #0a3b7a;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 2rem;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 1px 10px 0 rgba(42, 125, 225, 0.03);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2576cc;
+  letter-spacing: 2px;
+}
+
+header nav a {
+  margin-left: 1.5rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+/* HERO */
+.hero {
+  max-width: 700px;
+  margin: 3.5rem auto 2.5rem auto;
+  background: #fff;
+  padding: 2.5rem 2rem 2rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(42, 125, 225, 0.10);
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  color: #222;
+  margin-bottom: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  font-size: 1.22rem;
+  color: #555;
+  margin-bottom: 1.8rem;
+}
+
+.hero button, .get-started-btn {
+  background: #2576cc;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  padding: 0.9rem 2.2rem;
+  font-size: 1.08rem;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px #2576cc21;
+  transition: background 0.18s, box-shadow 0.18s;
+}
+
+.hero button:hover, .get-started-btn:hover {
+  background: #17416d;
+  box-shadow: 0 4px 20px #2576cc33;
+}
+
+/* FEATURES */
+.features {
+  background: #f4f6fb;
+  padding: 55px 0 35px 0;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2.1rem;
+  margin-bottom: 32px;
+  color: #2576cc;
+  font-weight: 700;
+}
+
+.features-list {
+  display: flex;
+  justify-content: center;
+  gap: 38px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px #1a32560d;
+  width: 240px;
+  padding: 28px 18px 24px 18px;
+  margin: 12px;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+  color: #2576cc;
+}
+
+.feature h3 {
+  margin: 12px 0 7px 0;
+  font-size: 1.17rem;
+}
+
+.feature p {
+  color: #444b55;
+  font-size: 1.02rem;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 28px 0 18px 0;
+  background: #fff;
+  border-top: 1px solid #e5e7eb;
+  color: #7a7a99;
+  font-size: 1rem;
+  margin-top: 38px;
+}
+
+/* === DashboardPage Styles === */
+.dashboard-hero {
+  max-width: 800px;
+  margin: 4.5rem auto 0 auto;
+  background: #fff;
+  padding: 2.5rem 2rem 2.2rem 2rem;
+  border-radius: 22px;
+  box-shadow: 0 8px 32px 0 rgba(42, 125, 225, 0.15);
+  text-align: center;
+}
+
+.dashboard-emoji {
+  font-size: 3.3rem;
+  color: #2576cc;
+  margin-bottom: 0.6rem;
+  display: block;
+}
+
+.dashboard-title {
+  font-weight: 800;
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.dashboard-desc {
+  color: #4973a6;
+  font-size: 1.18rem;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
+
+.dashboard-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin: 2rem 0 0.5rem 0;
+  justify-content: center;
+}
+
+.dashboard-feature-card {
+  background: #f3f7fd;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px #2576cc15;
+  padding: 22px 36px;
+  min-width: 180px;
+  text-align: center;
+}
+
+.dashboard-feature-icon {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.dashboard-feature-title {
+  font-weight: 700;
+  color: #2576cc;
+  font-size: 1.1rem;
+}
+
+.dashboard-feature-text {
+  color: #495970;
+  font-size: 0.97rem;
+  margin-top: 5px;
+}
+
+.dashboard-back-btn {
+  margin-top: 2.5rem;
+  background: #fff;
+  color: #2576cc;
+  border: 1.5px solid #2576cc;
+  font-weight: 700;
+  font-size: 1.09rem;
+  border-radius: 8px;
+  padding: 0.8rem 2.1rem;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s, border 0.18s;
+  box-shadow: 0 2px 8px #2576cc21;
+}
+.dashboard-back-btn:hover {
+  background: #2576cc;
+  color: #fff;
+  border: 1.5px solid #2576cc;
+}
+
